@@ -94,5 +94,16 @@ def init_app():
 
 app = init_app()
 
+
+
+
+# In main.py, add these imports:
+from routes.accounts import account_router
+
+# In the init_app function, add this line after including other routers:
+app.include_router(account_router, prefix='/api', tags=['accounts'])
+
+
+
 if __name__ == "__main__":
     uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
