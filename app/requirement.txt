@@ -1,0 +1,15 @@
+fastapi  # FastAPI for building APIs
+uvicorn  # ASGI server to run FastAPI
+httpx  # For making async HTTP requests
+sqlalchemy  # SQLAlchemy for database interactions
+requests  # HTTP requests
+#psycopg2  # PostgreSQL adapter for Python
+jpype1  # JPype for Java integration
+python-decouple  # For environment variable management
+PyJWT  # For JWT token handling
+passlib  # For password hashing
+mpxj  # MPXJ for working with project files
+asyncpg  # Async PostgreSQL client
+pg8000
+alembic
+psycopg2-binary
